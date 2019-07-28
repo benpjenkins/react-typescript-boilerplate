@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "tslint-config-airbnb"
+  ],
+  "rules": {
+    "eofline": true,
+    "quotemark": [true, "double"]
+  }
+}
