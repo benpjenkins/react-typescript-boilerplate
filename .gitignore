@@ -3,3 +3,6 @@
 
 # transpiled and minimized version
 /dist
+
+# environment variables
+/.env
