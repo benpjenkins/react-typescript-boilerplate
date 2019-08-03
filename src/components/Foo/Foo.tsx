@@ -1,9 +1,6 @@
-import * as React from "react";
+import React from "react";
+import { IFooProps } from "./Foo.interfaces";
 
-interface IFooProps {
-  name: string;
-}
-
-const foo: React.FC<IFooProps> = () => <h1>Hello {name}!</h1>;
+const foo = (props: IFooProps) => <h1>Hello {props.name}!</h1>;
 
 export default foo;
