@@ -1,1 +1,3 @@
-# ReactJS + TypeScript boilerplate
+# RB
+
+Expands the original repository with TypeScript support.
