@@ -1,6 +1,11 @@
 # RB
 
-Expands the original repository with TypeScript support.
+Expands the [**original repository**](https://github.com/gomorizsolt/react-boilerplate) with TypeScript support.
+
+See the referred sections to get started.
+
+- [**Core features**](https://github.com/gomorizsolt/react-boilerplate#core-features)
+- [**How to use?**](https://github.com/gomorizsolt/react-boilerplate#how-to-use)
 
 ## Contribution
 
