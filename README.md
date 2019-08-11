@@ -16,5 +16,3 @@ Contributors are welcome and also expected to adhere to the [**Contributor Coven
 ## License
 
 The project is under the MIT license. For more information read the [**LICENSE.md**](./LICENSE.md) file.
-
-
