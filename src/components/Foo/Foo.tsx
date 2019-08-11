@@ -4,6 +4,6 @@ interface IFooProps {
   name: string;
 }
 
-const foo: React.FC<IFooProps> = props => <h1>Hello {props.name}!</h1>;
+const foo: React.FC<IFooProps> = ({ name }) => <h1>Hello {name}!</h1>;
 
 export default foo;
