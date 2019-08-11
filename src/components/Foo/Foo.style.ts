@@ -1,0 +1,9 @@
+import styled from "styled-components";
+
+interface IFooDivProps {
+  fontSize: number;
+}
+
+export const FooDiv = styled.div<IFooDivProps>`
+  font-size: ${props => props.fontSize};
+`;
