@@ -5,6 +5,6 @@
   "rules": {
     "eofline": true, // To end files with a new line
     "quotemark": [true, "double"], // Enforces using double quotes
-    "import-name": false // // https://github.com/Microsoft/tslint-microsoft-contrib/issues/429#issue-327658782
+    "import-name": false // https://github.com/Microsoft/tslint-microsoft-contrib/issues/429#issue-327658782
   }
 }
