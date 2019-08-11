@@ -8,7 +8,7 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
   });
 
 module.exports = {
-    entry: path.join(__dirname, "src/index.tsx"),
+    entry: ["@babel/polyfill", path.join(__dirname, "src/index.tsx")],
     module: {
         rules: [
             {
