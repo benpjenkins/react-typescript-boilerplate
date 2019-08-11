@@ -2,9 +2,14 @@
   "extends": [
     "tslint-config-airbnb"
   ],
+  "//rules": {
+    "eofline": "End files with a new line",
+    "quotemark": "Enforces using double quotes",
+    "import-name": "Customizable import names"
+  },
   "rules": {
-    "eofline": true, // To end files with a new line
-    "quotemark": [true, "double"], // Enforces using double quotes
-    "import-name": false // https://github.com/Microsoft/tslint-microsoft-contrib/issues/429#issue-327658782
+    "eofline": true,
+    "quotemark": [true, "double"],
+    "import-name": false
   }
 }
