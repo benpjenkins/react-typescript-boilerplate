@@ -7,7 +7,7 @@ describe("<Foo />", () => {
 
   const name = "@fellowDeveloper";
 
-  beforeEach(() => {
+  beforeEach(() => {
     fooWrapper = shallow(<Foo name={name} />);
   });
 

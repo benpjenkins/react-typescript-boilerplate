@@ -1,5 +1,7 @@
 # RB
 
+*Many thanks to [Dor Shinar's](https://medium.com/@dors718/linting-your-react-typescript-project-with-eslint-and-prettier-2423170c3d42) article for helping me out in ESlint and TypeScript setup.*
+
 Expands the [**original repository**](https://github.com/gomorizsolt/react-boilerplate) with TypeScript support.
 
 See the referred sections to get started.
