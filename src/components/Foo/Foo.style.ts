@@ -6,5 +6,4 @@ interface IFooDivProps {
 
 export const FooDiv = styled.div<IFooDivProps>`
   font-size: ${props => props.fontSize};
-  font-weight: bold;
 `;
