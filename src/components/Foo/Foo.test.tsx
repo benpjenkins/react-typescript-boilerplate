@@ -18,15 +18,15 @@ describe("<Foo />", () => {
     expect(fooWrapper.find(FooDiv)).toHaveLength(1);
   });
 
-  it("sets `fontSize` to the text", () => {
+  it("sets `fontSize`", () => {
     const tree = renderer.create(<FooDiv fontSize="40px" />).toJSON();
 
     expect(tree).toHaveStyleRule("font-size", "40px");
   });
 
   it("greets the user", () => {
-    const expectedGreetMessage = `Hello ${name}!`;
+    const expectedMessage = `Hello ${name}!`;
 
-    expect(fooWrapper.find(FooDiv).text()).toEqual(expectedGreetMessage);
+    expect(fooWrapper.find(FooDiv).text()).toEqual(expectedMessage);
   });
 });
